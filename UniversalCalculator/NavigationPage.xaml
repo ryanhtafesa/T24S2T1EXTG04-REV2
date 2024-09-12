@@ -11,8 +11,8 @@
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 		<StackPanel VerticalAlignment="Top" HorizontalAlignment="Center"/>
 		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-			<Button Name="btnMathsCalculator" Content="Maths Calculator" Margin="10" Width="200" FontWeight="Bold"/>
-			<Button Name="btnMortgageCalculator" Content="Mortgage Calculator" Margin="10" Width="200" FontWeight="Bold"/>
+			<Button Name="btnMathsCalculator" Content="Maths Calculator" Margin="10" Width="200" FontWeight="Bold" Click="btnMathsCalculator_Click"/>
+			<Button Name="btnMortgageCalculator" Content="Mortgage Calculator" Margin="10" Width="200" FontWeight="Bold" Click="btnMortgageCalculator_Click"/>
 			<Button Name="btnCurrencyConverter" Content="Currency Converter" Margin="10" Width="200" FontWeight="Bold"/>
 			<Button Name="btnExit" Content="Exit" Margin="10" Width="200" FontWeight="Bold"/>
 		</StackPanel>

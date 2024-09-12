@@ -26,5 +26,15 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
+		// When clicking Maths Caclculator button, navigate to the math calculator page - RH
+		private void btnMathsCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			Frame.Navigate(typeof(MainPage));
+		}
+		// When clicking Mortgage Caclculator button, navigate to the Mortgage calculator page - RH
+		private void btnMortgageCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			Frame.Navigate(typeof(MortgageCalculator));
+		}
 	}
 }
