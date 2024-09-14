@@ -26,5 +26,21 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
+
+		private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+		{
+
+		}
+		private void btnMathsCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			// Navigate to the Math Calculator page - AK
+			Frame.Navigate(typeof(MainPage));
+		}
+		private void btnCurrencyConverter_Click(object sender, RoutedEventArgs e)
+		{
+			// Navigate to the Currency Converter page - AK
+			Frame.Navigate(typeof(CurrencyConverter));
+		}
+
 	}
 }
