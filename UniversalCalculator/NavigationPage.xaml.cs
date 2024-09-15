@@ -48,6 +48,7 @@ namespace Calculator
 		}
 		private void btnAppExit_Click(object sender, RoutedEventArgs e)
 		{
+			// Navigate button to close the app - RH
 			Application.Current.Exit();
 		}
 	}
