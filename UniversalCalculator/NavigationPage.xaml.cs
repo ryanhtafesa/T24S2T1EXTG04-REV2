@@ -46,10 +46,14 @@ namespace Calculator
 			// Navigate to the Mortgage Calculator page - RH
 			Frame.Navigate(typeof(MortgageCalculator));
 		}
+		
 		private void btnAppExit_Click(object sender, RoutedEventArgs e)
 		{
 			// Navigate button to close the app - RH
 			Application.Current.Exit();
 		}
-	}
+
+		private void btnTripCalculator_Click(object sender, RoutedEventArgs e);
+		 // Trip calculator C# code will be developed later
+    }
 }
