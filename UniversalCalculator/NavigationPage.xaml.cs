@@ -46,5 +46,9 @@ namespace Calculator
 			// Navigate to the Mortgage Calculator page - RH
 			Frame.Navigate(typeof(MortgageCalculator));
 		}
+		private void btnAppExit_Click(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Exit();
+		}
 	}
 }
