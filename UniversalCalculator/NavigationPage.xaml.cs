@@ -26,14 +26,24 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
-		// When clicking Maths Caclculator button, navigate to the math calculator page - RH
+
+		private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+		{
+
+		}
 		private void btnMathsCalculator_Click(object sender, RoutedEventArgs e)
 		{
+			// Navigate to the Math Calculator page - AK
 			Frame.Navigate(typeof(MainPage));
 		}
-		// When clicking Mortgage Caclculator button, navigate to the Mortgage calculator page - RH
+		private void btnCurrencyConverter_Click(object sender, RoutedEventArgs e)
+		{
+			// Navigate to the Currency Converter page - AK
+			Frame.Navigate(typeof(CurrencyConverter));
+		}
 		private void btnMortgageCalculator_Click(object sender, RoutedEventArgs e)
 		{
+			// Navigate to the Mortgage Calculator page - RH
 			Frame.Navigate(typeof(MortgageCalculator));
 		}
 	}
